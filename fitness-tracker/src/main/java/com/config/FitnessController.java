@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/fitnesstracker")
+@RequestMapping("/api/v1.0/fitnesstracker")
 public class FitnessController {
 	
 	@Autowired FitnessService service;
